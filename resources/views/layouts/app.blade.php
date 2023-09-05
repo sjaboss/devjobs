@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+{{--     <link rel="shortcut icon" type="image/ico" href="{{ asset('/public/favicon.ico') }}">
+    <link rel="shortcut icon" sizes="192x192" href="{{ asset('/public/favicon.ico') }}"> --}}
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
