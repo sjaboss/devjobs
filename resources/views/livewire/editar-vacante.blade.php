@@ -82,7 +82,7 @@
         
          <div class="my-5">
             <x-input-label  :value="__('Imagen Actual')" />
-            <img src="{{asset('storage/vacantes/' . $imagen)}}" alt="{{'Imagen Vacante' . $titulo}}">
+            <img src="{{asset('storage/public/vacantes/' . $imagen)}}" alt="{{'Imagen Vacante' . $titulo}}">
         </div> 
 
 
